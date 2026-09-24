@@ -91,3 +91,39 @@ Agent / system telemetry
                     +--> graph retrieval -----------> CONVERT
                     +--> incomplete-graph theory ---> CURVE
                     +--> graph generation ----------> GraphGeneration
+```
+
+---
+
+## Research & Engineering Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,linux,git,github,latex,docker,vscode&theme=dark" alt="Research and engineering stack" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/CUDA-Accelerated%20Training-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+<img src="https://img.shields.io/badge/MITRE%20ATT%26CK-Security%20Knowledge-ED1C24?style=flat-square" alt="MITRE ATT&CK" />
+<img src="https://img.shields.io/badge/Graph%20ML-Research-8250DF?style=flat-square" alt="Graph ML" />
+<img src="https://img.shields.io/badge/LLM%20Agents-Systems-0969DA?style=flat-square" alt="LLM Agents" />
+
+</div>
+
+---
+
+<div align="center">
+
+### Current Focus
+
+**CURVE · ExecWeave · SLM Streaming Security Memory · GraphGeneration**
+
+<br/>
+
+<a href="https://github.com/Irish-kw/ExecWeave">
+  <img src="https://img.shields.io/badge/Explore-ExecWeave-0969DA?style=for-the-badge&logo=github" alt="Explore ExecWeave" />
+</a>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:0969DA,100:8250DF&height=120&section=footer" alt="footer" />
+
+</div>
