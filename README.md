@@ -36,7 +36,7 @@ My recent research focuses on recovering structure from noisy or incomplete evid
 <div align="center">
 
 <a href="https://github.com/Irish-kw/ExecWeave">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Irish-kw&repo=ExecWeave&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=8250DF&text_color=C9D1D9" alt="ExecWeave repository card" />
+  <img src="[https://github-readme-stats.vercel.app/api/pin/?username=Irish-kw&repo=ExecWeave&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=8250DF&text_color=C9D1D9](https://github.com/Irish-kw/ExecWeave/blob/main/docs/assets/shot5_brand.jpg)" alt="ExecWeave repository card" />
 </a>
 
 <br/><br/>
