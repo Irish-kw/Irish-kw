@@ -76,22 +76,36 @@ A local-first observability system that combines provider-level agent semantics 
 
 ---
 
-## Research Map
+## Research Landscape
 
-```text
-Agent / system telemetry
-        |
-        +--> execution provenance -----------------> ExecWeave
-        |
-        +--> compact persistent reasoning state ---> SLM security memory
-        |
-        +--> ATT&CK techniques / campaign evidence
-                    |
-                    +--> sequence disentanglement ---> TGCM
-                    +--> graph retrieval -----------> CONVERT
-                    +--> incomplete-graph theory ---> CURVE
-                    +--> graph generation ----------> GraphGeneration
-```
+<div align="center">
+
+<table>
+<tr>
+<td width="50%" align="center">
+<strong>ExecWeave</strong><br/>
+<sub>Cross-layer execution provenance for observable agentic software</sub>
+</td>
+<td width="50%" align="center">
+<strong>SLM Streaming Security Memory</strong><br/>
+<sub>Compact persistent state for long-running security reasoning</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<strong>CURVE</strong><br/>
+<sub>Graph reasoning and formal guarantees under incomplete observations</sub>
+</td>
+<td width="50%" align="center">
+<strong>GraphGeneration</strong><br/>
+<sub>Conditional generation of structured attack-campaign graphs</sub>
+</td>
+</tr>
+</table>
+
+<sub><strong>Observe</strong> agent and system behavior · <strong>preserve</strong> long-running evidence · <strong>reason</strong> over incomplete structure · <strong>generate</strong> campaign graphs</sub>
+
+</div>
 
 ---
 
