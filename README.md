@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:0969DA,100:8250DF&height=230&section=header&text=Guo-Wei%20Wong&fontSize=52&fontColor=F0F6FC&animation=fadeIn&fontAlignY=36&desc=AI%20Security%20%E2%80%A2%20Graph%20Learning%20%E2%80%A2%20Agent%20Observability&descAlignY=56&descSize=19" alt="Guo-Wei Wong" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:0969DA,100:8250DF&height=230&section=header&text=G-W%20W&fontSize=52&fontColor=F0F6FC&animation=fadeIn&fontAlignY=36&desc=AI%20Security%20%E2%80%A2%20Graph%20Learning%20%E2%80%A2%20Agent%20Observability&descAlignY=56&descSize=19" alt="Guo-Wei Wong" />
 
 <a href="https://github.com/Irish-kw">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=920&lines=AI+Security+Researcher;Graph+Reasoning+under+Incomplete+Observations;Observable+Agentic+Software;APT+Campaign+Analysis+and+Streaming+Security+Memory" alt="Research interests" />
