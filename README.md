@@ -58,7 +58,7 @@ A local-first observability system that combines provider-level agent semantics 
 ## Publications
 
 ### First-author
-
+- **Learnable Staircase Activations for Ordinal Outputs under Mutual Information Regularization**, *In Peer-Review*, 2026.
 - **TGCM: Topic-Guided Generative Disentanglement of Interleaved APT Technique Sequences**. *arXiv preprint arXiv:2606.18651*, 2026. [arXiv](https://arxiv.org/abs/2606.18651)
 - **Poster: When Logs Misbehave: Retrieving Known APTs from Noisy Graphs**. *ACM Conference on Computer and Communications Security (CCS Poster)*, 2025.
 - **Attention-based API locating for malware techniques**. *IEEE Transactions on Information Forensics and Security*, 19:1199–1212, 2023.
