@@ -3,7 +3,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:0969DA,100:8250DF&height=230&section=header&text=Guo-Wei%20Wong&fontSize=52&fontColor=F0F6FC&animation=fadeIn&fontAlignY=36&desc=AI%20Security%20%E2%80%A2%20Graph%20Learning%20%E2%80%A2%20Agent%20Observability&descAlignY=56&descSize=19" alt="Guo-Wei Wong" />
 
 <a href="https://github.com/Irish-kw">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=Building+observable+AI+agent+systems;Reasoning+over+incomplete+security+graphs;Studying+APT+campaigns+and+long-running+evidence" alt="Research interests" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=920&lines=AI+Security+Researcher;Graph+Reasoning+under+Incomplete+Observations;Observable+Agentic+Software;APT+Campaign+Analysis+and+Streaming+Security+Memory" alt="Research interests" />
 </a>
 
 <br/>
@@ -17,14 +17,17 @@
 
 ## About
 
-I work on **AI systems for security** and **observable agentic software**, with an emphasis on graph-structured reasoning, incomplete observations, long-running evidence, and advanced persistent threat (APT) analysis.
+I work on **AI systems for security**, **graph reasoning**, and **observable agentic software**.  
+My recent research focuses on recovering structure from noisy or incomplete evidence, understanding long-running APT campaigns, and building systems that make AI-agent execution behavior inspectable.
 
-My current work spans four connected directions:
+---
 
-- **AI Security & APT Campaigns** — recovering technique- and campaign-level structure from noisy, mixed, or incomplete evidence.
-- **Graph Reasoning** — graph matching, containment, generation, and theoretical guarantees under partial observations.
-- **Agent Observability** — cross-layer execution provenance for AI agents, tools, processes, files, networks, and model runtimes.
-- **Streaming Security Memory** — compact persistent state for long-running security reasoning without replaying arbitrary discarded history.
+## Focus On
+
+- **CURVE** — graph-theoretic reasoning under incomplete observations, with a focus on support, exhaustiveness, and occurrence relations.
+- **ExecWeave** — cross-layer execution provenance for observable agentic software, connecting agent semantics with processes, files, and network evidence.
+- **SLM Streaming Security Memory** — compact persistent memory for long-running security reasoning without replaying arbitrary discarded history.
+- **GraphGeneration** — conditional attack-campaign graph generation from security evidence and structured technique/campaign representations.
 
 ---
 
@@ -52,81 +55,39 @@ A local-first observability system that combines provider-level agent semantics 
 
 ---
 
-## Selected Papers & Manuscripts
+## Publications
 
-> Public links are shown only when the corresponding artifact is publicly accessible.
+### First-author
 
-### ExecWeave
-**ExecWeave: Cross-Layer Execution Provenance for Observable Agentic Software**  
-*Agent observability · execution provenance · AI systems*  
-[Project / Code](https://github.com/Irish-kw/ExecWeave)
+- **TGCM: Topic-Guided Generative Disentanglement of Interleaved APT Technique Sequences**. *arXiv preprint arXiv:2606.18651*, 2026. [arXiv](https://arxiv.org/abs/2606.18651)
+- **Poster: When Logs Misbehave: Retrieving Known APTs from Noisy Graphs**. *ACM Conference on Computer and Communications Security (CCS Poster)*, 2025.
+- **Attention-based API locating for malware techniques**. *IEEE Transactions on Information Forensics and Security*, 19:1199–1212, 2023.
 
-### CURVE
-**Recovering Occurrence Relations from Incomplete Graph Observations: Support, Exhaustiveness, and Sharp Isolate Compression**  
-*Graph theory · incomplete observations · occurrence relations*
+### Selected co-authored works
 
-### CONVERT
-**CONVERT: Containment-Aware APT Retrieval under Imperfect Technique Graphs**  
-*APT retrieval · technique graphs · containment-aware matching*
-
-### TGCM
-**TGCM: Topic-Guided Consistency Modeling for One-Step Disentanglement of Interleaved APT Technique Sequences**  
-*APT campaigns · technique sequences · sequence disentanglement*
-
-### Staircase
-**Learnable Staircase Activations for Ordinal Outputs under Mutual Information Regularization**  
-*Ordinal learning · neural activations · mutual-information regularization*
+- **A cascade approach for APT campaign attribution in system event logs: Technique hunting and subgraph matching**. *ICC 2025-IEEE International Conference on Communications*, 1073–1078, 2025.
+- **Poster: LogCraft: Crafting CVE-Aware Synthetic Worlds (Logs)**. *ACM Conference on Computer and Communications Security (CCS Poster)*, 2025.
+- **Saga: Synthetic audit log generation for APT campaigns**. *IEEE Transactions on Dependable and Secure Computing*, 2025.
+- **Sparse grid imputation using unpaired imprecise auxiliary data: Theory and application to PM2.5 estimation**. *ACM Transactions on Knowledge Discovery from Data*, 18(3):1–26, 2024.
+- **Extreme event discovery with self-attention for PM2.5 anomaly prediction**. *IEEE Intelligent Systems*, 38(2):36–45, 2023.
+- **Building cybersecurity ontology for understanding and reasoning adversary tactics and techniques**. *2022 IEEE International Conference on Big Data (Big Data)*, 4266–4274, 2022.
+- **Numerical simulation for flow of rolling piston type of rotary compressor**. *Energies*, 13(10):2526, 2020.
+- **The influence factors on heat transfer performance of loop thermosyphon system**. *Transactions of the Canadian Society for Mechanical Engineering*, 40(5):947–958, 2016.
 
 ---
 
 ## Research Map
 
 ```text
-Audit / agent telemetry
+Agent / system telemetry
         |
-        +--> observable execution provenance --------> ExecWeave
+        +--> execution provenance -----------------> ExecWeave
         |
-        +--> compact long-running security memory ---> streaming reasoning
+        +--> compact persistent reasoning state ---> SLM security memory
         |
-        +--> ATT&CK technique / campaign structure
+        +--> ATT&CK techniques / campaign evidence
                     |
-                    +--> sequence disentanglement ----> TGCM
-                    +--> graph retrieval -------------> CONVERT
-                    +--> incomplete-graph theory -----> CURVE
-                    +--> campaign graph generation ---> CAGE
-```
-
----
-
-## Research & Engineering Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,pytorch,linux,git,github,latex,docker,vscode&theme=dark" alt="Research and engineering stack" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/CUDA-Accelerated%20Training-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
-<img src="https://img.shields.io/badge/MITRE%20ATT%26CK-Security%20Knowledge-ED1C24?style=flat-square" alt="MITRE ATT&CK" />
-<img src="https://img.shields.io/badge/Graph%20ML-Research-8250DF?style=flat-square" alt="Graph ML" />
-<img src="https://img.shields.io/badge/LLM%20Agents-Systems-0969DA?style=flat-square" alt="LLM Agents" />
-
-</div>
-
----
-
-<div align="center">
-
-### Current Focus
-
-**Observable agents · Long-running security memory · APT campaign reasoning · Incomplete graph learning**
-
-<br/>
-
-<a href="https://github.com/Irish-kw/ExecWeave">
-  <img src="https://img.shields.io/badge/Explore-ExecWeave-0969DA?style=for-the-badge&logo=github" alt="Explore ExecWeave" />
-</a>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,45:0969DA,100:8250DF&height=120&section=footer" alt="footer" />
-
-</div>
+                    +--> sequence disentanglement ---> TGCM
+                    +--> graph retrieval -----------> CONVERT
+                    +--> incomplete-graph theory ---> CURVE
+                    +--> graph generation ----------> GraphGeneration
