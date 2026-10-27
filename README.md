@@ -39,12 +39,6 @@ My recent research focuses on recovering structure from noisy or incomplete evid
   <img src="https://raw.githubusercontent.com/Irish-kw/ExecWeave/main/docs/assets/shot5_brand.gif" width="92%" alt="ExecWeave" />
 </a>
 
-<br/><br/>
-
-<a href="https://github.com/Irish-kw/ExecWeave">
-  <img src="https://raw.githubusercontent.com/Irish-kw/ExecWeave/main/docs/assets/shot5_brand.gif" width="92%" alt="ExecWeave live execution graph" />
-</a>
-
 </div>
 
 **ExecWeave — Cross-Layer Execution Provenance for Observable Agentic Software**
